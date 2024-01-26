@@ -77,6 +77,13 @@ main {
   margin-bottom: 2rem;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 @media screen and (max-width: 640px) {
   header h1{
     font-size: 1.6rem;
