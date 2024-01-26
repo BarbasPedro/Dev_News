@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <link href="./lib/bootstrap.min.css" rel="stylesheet">
+  <title>DevNews</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <img src="./images/icone.png" alt="">
+        <h1>< Dev_News /></h1>
+        <img src="./images/icone.png" alt="">
+    </header>
+
+    <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div data-bs-interval="2000" class="carousel-item active">
+          <img src="./images/carousel1.png" alt="icone Python">
+          <div class="carousel-caption" style="left: 0; right: 0; bottom: 10">
+            <h5>Python: Por que a linguagem é tão usada para data science e áreas financeiras?</h2>
+          </div>
+        </div>
+        <div data-bs-interval="2000" class="carousel-item">
+          <img src="./images/carousel2.jpg" alt="tela com vários códigos">
+          <div class="carousel-caption" style="left: 0; right: 0;  bottom: 10;">
+            <h5>Maior conferência de JavaScript do mundo ocorrerá em Porto Alegre em abril de 2024</h2>
+          </div>
+        </div>
+        <div data-bs-interval="2000" class="carousel-item">
+          <img src="./images/carousel3.png" alt="tela com vários códigos">
+          <div class="carousel-caption" style="left: 0; right: 0; bottom: 10;">
+            <h5>Qual a diferença entre front-end e back-end?</h2>
+          </div>
+        </div>
+        <div data-bs-interval="2000" class="carousel-item">
+          <img src="./images/carousel4.png" alt="Banner do evento Code Connect">
+          <div class="carousel-caption" style="left: 0; right: 0; bottom: 10;">
+            <h5>Code Connect: Nova Friburgo vai sediar terceira edição de evento de tecnologia e programação</h2>
+          </div>
+        </div>
+      </div>
+      <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <h2 id="titulo">Notícias</h2>
+    <!-- class="d-md-flex justify-content-between align-items-start" -->
+    <main>
+      <div class="card">
+        <div class="row">
+            <div class="col-4 mt-4" id="card">
+              <article class="card text-bg-dark" id="article">
+                <img src="./images/carousel1.png" alt="icone python">
+                <div class="card-body">
+                  <h4>Python</h4>
+                  <p class="card-text">
+                    Python: Por que a linguagem é tão usada para data science e áreas financeiras?
+                  </p>
+                  <a href="https://observatoriodegames.uol.com.br/colunas/assunto-nerd/python-por-que-a-linguagem-e-tao-usada-para-data-science-e-areas-financeiras" class="btn btn-primary">Acesse a notícia completa</a>
+                </div>
+                <footer class="card-footer">
+                  <time>Postado em 22/01/2024 às 17:51</time>
+                </footer>
+              </article>
+            </div>
+            <div class="col-4 mt-4" id="card">
+              <article class="card text-bg-dark" id="article">
+                <img src="./images/carousel2.jpg" alt="tela com código de programação">
+                <div class="card-body">
+                  <h4>JavaScript</h4>
+                  <p class="card-text">
+                    Maior conferência de JavaScript do mundo ocorrerá em Porto Alegre em abril de 2024
+                  </p>
+                  <a href="https://www.jornaldocomercio.com/economia/2023/10/1129211-maior-conferencia-de-javascript-do-mundo-ocorrera-em-porto-alegre-em-abril-de-2024.html" class="btn btn-primary">Acesse a notícia completa</a>
+                </div>
+                <footer class="card-footer">
+                  <time>Postado em 23/01/2024 às 18:01</time>
+                </footer>
+              </article>
+            </div>
+            <div class="col-4 mt-4" id="card">
+              <article class="card text-bg-dark" id="article">
+                <img src="./images/carousel3.png" alt="Tela com código de programação">
+                <div class="card-body">
+                  <h4>Back/Front-End</h4>
+                  <p class="card-text">
+                    Qual a diferença entre front-end e back-end?
+                  </p>
+                  <a href="https://tecnoblog.net/responde/qual-a-diferenca-entre-front-end-e-back-end/" class="btn btn-primary">Acesse a notícia completa</a>
+                </div>
+                <footer class="card-footer">
+                  <time>Postado em 24/01/2024 às 17:45</time>
+                </footer>
+              </article>
+            </div>
+            <div class="col-4 mt-4" id="card">
+              <article class="card text-bg-dark" id="article">
+                <header class="card-header">
+                  Notícia em Destaque
+                </header>
+                <img src="./images/carousel4.png" alt="icone python">
+                <div class="card-body">
+                  <h4>Eventos</h4>
+                  <p class="card-text">
+                    Code Connect: Nova Friburgo vai sediar terceira edição de evento de tecnologia e programação
+                  </p>
+                  <a href="https://www.portalmultiplix.com/noticias/ciencia-tecnologia/code-connect-nova-friburgo-vai-sediar-terceira-edicao-de-evento-de-tecnologia-e-programacao" class="btn btn-primary">Acesse a notícia completa</a>
+                </div>
+                <footer class="card-footer">
+                  <time>Postado em 25/01/2024 às 17:40</time>
+                </footer>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+  <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

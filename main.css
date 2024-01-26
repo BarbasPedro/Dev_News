@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --bs-body-bg: black;
+}
+
+header{
+  font-family: 'Space Grotesk', sans-serif;
+  display: flex;
+  background-color: black;
+  color: rgb(8, 221, 32);
+  padding: 12px;
+  border-radius: 0px 0px 0px 0px;
+  align-items: center;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 5rem;
+}
+
+header img {
+  width: 10%;
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+#carousel {
+  overflow-y: hidden;
+  border-radius: 0px 0px 100px 0px;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#carousel img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  font-size: 50%;
+  background-color: rgba(21, 111, 28, 0.717);
+  border-radius: 0px 0px 100px 0px;
+  justify-content: center;
+}
+
+#titulo {
+  padding-left: 30px;
+  max-width: 980px;
+  margin: 15px auto 0 auto;
+  border: 1px solid rgba(21, 111, 28, 0.717);
+  color: rgb(8, 221, 32);
+}
+
+main {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+#article {
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption{
+    padding-right: 20px;
+  }
+
+  #carousel h5 {
+    font-size: 12px;
+    text-wrap: wrap;
+  }
+
+  #card{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+  header h1 {
+    font-size: 2.75rem;
+  }
+
+  #carousel h5 {
+    font-size: 16px;
+    text-wrap: wrap;
+  }
+
+  .carousel-caption{
+    padding-right: 20px;
+  }
+
+  #card{
+    width: 50%;
+  }
+}
