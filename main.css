@@ -78,8 +78,8 @@ main {
 }
 
 @media screen and (max-width: 640px) {
-  header h1 {
-    font-size: 2rem;
+  header h1{
+    font-size: 1.6rem;
   }
 
   .carousel-caption{
